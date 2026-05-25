@@ -1,0 +1,40 @@
+.card {
+    border: 1px solid #d0d7de;
+    padding: 1em;
+    border-radius: 8px;
+    width: 200px;
+    background: #f6f8fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    transition: border-color 0.15s;
+}
+
+.card:hover {
+    border-color: #0969da;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.login {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.score {
+    font-size: 0.75rem;
+    color: #57606a;
+}
+
+.link {
+    font-size: 0.8rem;
+    color: #0969da;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
